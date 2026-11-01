@@ -1,9 +1,6 @@
 # Reference — PCA9554APW
 
-**Purpose:** verify the hardware against the datasheet; give software the address, speed and register settings.
-
 **Datasheet:** NXP *PCA9554; PCA9554A*, Rev. 10, 8 November 2017 — `Datasheet/PCA9554_9554A.pdf`
-**Part:** PCA9554APW (TSSOP-16, **A** variant). Board D1, `U1`.
 
 ---
 
