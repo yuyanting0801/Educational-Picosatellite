@@ -111,14 +111,3 @@ XT30 (J_5V, 4 A) → F21 5 A → Q1 → R20 5 mΩ → +5V_PI → J_PI pins 2/4
 - Keep the **USB/Ethernet ports** (right edge), **camera/display FPC** and **PCIe FFC** accessible; the camera cable passes through a slot — `J_CAM` is not fitted.
 - Bottom-side socket: **pin order is mirrored** relative to the top view; verify pin 1 against the physical board before layout.
 
-## 3 Checks and notes
-
-1. **`F5` can be closed** — the official drawing confirms **58 × 49 mm**, **Ø2.7 mm**; note the array is offset left (right holes 23.5 mm from the right edge), not centred.
-2. **Header datum**: centre **32.5 mm** from the left edge, pin 1 ≈ **8.4 mm**; use this to place the bottom socket.
-3. **Document error in `10` §4.3**: “Pi 元件面朝上、离 L1 板底面 ≥ 2.4 mm” — 2.4 mm is the clearance **above** L1 (`方案.md` §3.1); the Pi side needs **≥22 mm** (`方案.md` §4.1). Fix `10` §4.3.
-4. **Power**: 5.0 V / 4 A vs the official 5.1 V / 5 A — verify no undervoltage with the Pi + Active Cooler + camera; do not backfeed USB-C.
-5. **ID pins 27/28 and `PI_3V3` 1/17 are NC** — correct; do not add a HAT+ EEPROM.
-6. **STANDBY** (5 V on, 3.3 V off): L1's `+3V3` stays live and would drive unpowered Pi pins — add isolation if STANDBY is ever used; the L1 design otherwise assumes WARM-STANDBY.
-7. **PCIe** is unused; keep the 16-pin FFC accessible in case an M.2 HAT is added later.
-8. **Active Cooler** is 13.7 mm tall — confirm the `F4` stack height before fixing the L1 layer height.
-9. **`10` §4.1.2 table is stale for pins 32/33**: it still lists them under `RSV_*`, but the netlist has `MAG_ISO` on `J_PI.32` and `WDI` on `J_PI.33` (`eda/D3a_L1_power_netlist.txt`). Add the two rows and drop them from the spare list.
