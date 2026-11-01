@@ -1,7 +1,7 @@
 # References — device-level hardware notes
 
 Hardware verification notes for the Educational Picosatellite interface board. One file per device, named after the chip. 
-All schematic diagrams are uploaded in /SCH. Can download when checking.
+All schematic diagrams are uploaded in [SCH](/SCH). Can download when checking.
 
 | File | Device | Part | Datasheet | Covers |
 |---|---|---|---|---|
