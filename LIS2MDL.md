@@ -1,10 +1,7 @@
 # Reference — LIS2MDL
 
-**Purpose:** verify the D7 magnetometer against the datasheet; document the I²C configuration, the mandatory C1 capacitor and the bring-up checks.
-
 **Datasheet:** ST *LIS2MDL — 3-axis magnetometer*, DocID030621 Rev 5 — `Datasheet/LIS2MDLTR.pdf`
 **Part:** LIS2MDLTR (LCSC C919695; LGA-12L, 2.0 × 2.0 × 0.7 mm). Board D7, `U1` — I²C `0x1E`.
-**Board sheet:** `10_原理图.md` §4.4; netlist `eda/D7_mag_board_netlist.txt`.
 
 ---
 
