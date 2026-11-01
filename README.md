@@ -4,7 +4,7 @@ Hardware verification notes for the Educational Picosatellite interface board. O
 
 | File | Device | Part | Board · ref | Datasheet | Covers |
 |---|---|---|---|---|---|
-| [PCA9554A.md](PCA9554A.md) | NXP 8-bit I²C I/O expander | PCA9554APW, TSSOP-16 | D1 · `U1` | [PCA9554_9554A.pdf](../Datasheet/PCA9554_9554A.pdf) · Rev. 10 | Address `0x38`, 220 Ω CAN_EN series resistors, pin map and reset state |
+| [PCA9554APW.md](PCA9554APW.md) | NXP 8-bit I²C I/O expander | PCA9554APW, TSSOP-16 | D1 · `U1` | [PCA9554_9554A.pdf](../Datasheet/PCA9554_9554A.pdf) · Rev. 10 | Address `0x38`, 220 Ω CAN_EN series resistors, pin map and reset state |
 | [MCP2515.md](MCP2515.md) | Microchip stand-alone CAN controller | MCP2515-I/SO, SOIC-18 | D3b · `U1` | [MCP2515.pdf](../Datasheet/MCP2515.pdf) · DS21801G | Correct SOIC-18 pinout, SPI interface, 8 MHz crystal, bit timing |
 | [SN65HVD230.md](SN65HVD230.md) | TI 3.3 V CAN transceiver | SN65HVD230DR, SOIC-8 | D3b · `U2` | [SN65HVD230DR.pdf](../Datasheet/SN65HVD230DR.pdf) · SLOS346O | `RS` 0 Ω = high-speed mode, Vref handling, split termination, PESD1CAN |
 | [INA226.md](INA226.md) | TI current/power monitor | INA226AIDGS, VSSOP-10 | D3a · `U3` | [ina226.pdf](../Datasheet/ina226.pdf) · SBOS547C | 5 mΩ shunt, Kelvin sensing, 10 Ω + 100 nF input filter, calibration |
