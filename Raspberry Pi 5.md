@@ -1,10 +1,7 @@
 # Reference — Raspberry Pi 5 (Pi layer)
 
-**Purpose:** hardware reference for the L1 Pi layer — Pi 5 envelope, 40-pin header, power and the `J_PI` usage. No software.
-
 **Sources:** `research_raw/pi5/pi5_brief.pdf` (Product Brief, Oct 2026) · `pi5_mech.pdf` (mechanical drawing) · `hat_plus_specification.pdf` (HAT+ spec, 2024-12-05) · `pi5_pcie_connector_datasheet.pdf` (2024-01-15) · `active_cooler_mechanical_drawing.pdf` · `cable_reference_drawing.pdf`.
 
-**Board:** `10_原理图.md` §4.1/§4.3; netlist `eda/D3a_L1_power_netlist.txt`.
 
 ---
 
