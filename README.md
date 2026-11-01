@@ -16,16 +16,9 @@ Hardware verification notes for the Educational Picosatellite interface board. O
 
 | Board | Role |
 |---|---|
-| **D1** | Left bridge board — CAN backbone, PCA9554A per-layer `CAN_EN`, split termination |
-| **D2** | Right bridge board — power distribution, reserved CAN-B |
-| **D3a** | L1 power sheet — 5 V entry, INA226 telemetry, watchdog, `J_PI` |
-| **D3b** | L1 CAN/sensor sheet — MCP2515, SN65HVD230, LSM6DSO |
-| **D7** | Magnetometer board — LIS2MDL on a 10 × 10 mm satellite board |
+| **Bridge_Left** | Left bridge board — CAN backbone, PCA9554A per-layer `CAN_EN`, split termination |
+| **Bridge_Right** | Right bridge board — power distribution, reserved CAN-B |
+| **Power.Pi_Level** | L1 power sheet — 5 V entry, INA226 telemetry, watchdog, `J_PI` |
+| **CAN.Pi_Level** | L1 CAN/sensor sheet — MCP2515, SN65HVD230, LSM6DSO |
+| **Mag_board** | Magnetometer board — LIS2MDL on a 10 × 10 mm satellite board |
 
-## Notes
-
-- Datasheet links point to the repository's `Datasheet/` folder — `../Datasheet/<file>.pdf`, file names as stored there.
-- Figures are in [`reference_img/`](reference_img/); all image links are relative and resolve inside this folder.
-- The references cite project-side files (`10_原理图.md`, `eda/*_netlist.txt`, `Datasheet/…`) by section and filename so the design intent stays traceable. Those files are not part of this folder.
-- Each chip was checked pin-by-pin against its datasheet (the Raspberry Pi 5 entry is board-level); the "Checks and notes" section records what was verified and any remaining constraint.
-- Files are hardware-focused. Register tables appear only where a hardware configuration depends on them (address, mode, bit timing, power-on state).
