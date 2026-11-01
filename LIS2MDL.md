@@ -1,6 +1,7 @@
 # Reference — LIS2MDL
 
 **Datasheet:** ST *LIS2MDL — 3-axis magnetometer*, DocID030621 Rev 5 — `Datasheet/LIS2MDLTR.pdf`
+
 ---
 
 ## 1. Hardware
