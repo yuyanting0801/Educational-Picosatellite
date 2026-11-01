@@ -3,7 +3,7 @@
 Hardware verification notes for the Educational Picosatellite interface board. One file per device, named after the chip. Each file is written against the manufacturer datasheet listed in it and follows the same shape: **pinout → design decisions → checks and notes** (plus bring-up where it matters).
 
 | File | Device | Part | Datasheet | Covers |
-|---|---|---|---|---|---|
+|---|---|---|---|---|
 | [PCA9554APW.md](PCA9554APW.md) | NXP 8-bit I²C I/O expander | PCA9554APW, TSSOP-16 | [PCA9554_9554A.pdf](../Datasheet/PCA9554_9554A.pdf) | Address `0x38`, 220 Ω CAN_EN series resistors, pin map and reset state |
 | [MCP2515.md](MCP2515.md) | Microchip stand-alone CAN controller | MCP2515-I/SO, SOIC-18 | [MCP2515.pdf](../Datasheet/MCP2515.pdf)  | Correct SOIC-18 pinout, SPI interface, 8 MHz crystal, bit timing |
 | [SN65HVD230.md](SN65HVD230.md) | TI 3.3 V CAN transceiver | SN65HVD230DR, SOIC-8 | [SN65HVD230DR.pdf](../Datasheet/SN65HVD230DR.pdf)  | `RS` 0 Ω = high-speed mode, Vref handling, split termination, PESD1CAN |
