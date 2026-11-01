@@ -10,7 +10,7 @@ Hardware verification notes for the Educational Picosatellite interface board. O
 | [INA226.md](INA226.md) | TI current/power monitor | INA226AIDGS, VSSOP-10 | [ina226.pdf](/Datasheet/ina226.pdf)  | 5 mΩ shunt, Kelvin sensing, 10 Ω + 100 nF input filter, calibration |
 | [LSM6DSO.md](LSM6DSO.md) | ST 6-axis IMU | LSM6DSOETR3, LGA-14L | [LSM6DSOETR3.pdf](/Datasheet/LSM6DSOETR3.pdf)  | Mode 1 I²C at `0x6A`, `CS` high, INT1 power-on constraint |
 | [LIS2MDL.md](LIS2MDL.md) | ST 3-axis magnetometer | LIS2MDLTR, LGA-12L | [LIS2MDLTR.pdf](/Datasheet/LIS2MDLTR.pdf)  | I²C `0x1E`, mandatory 220 nF `C1` (low ESR), pull-up margin |
-| [RaspberryPi5.md](RaspberryPi5.md) | Raspberry Pi 5 (BCM2712) | — | — (six source PDFs listed in the file) | 85 × 56 envelope, 58 × 49 hole array, 40-pin header, power, PCIe FFC |
+| [Raspberry Pi 5.md](Raspberry_Pi_5.md) | Raspberry Pi 5 (BCM2712) | — | — (six source PDFs listed in the file) | 85 × 56 envelope, 58 × 49 hole array, 40-pin header, power, PCIe FFC |
 
 ## Board map
 
