@@ -1,10 +1,6 @@
 # Reference — LSM6DSO
 
-**Purpose:** verify the D3b IMU against the datasheet; document the Mode 1 I²C configuration, the INT1 power-on constraint and the bring-up checks.
-
 **Datasheet:** ST *LSM6DSO — 6-axis IMU (inertial measurement unit)*, DS12140 Rev 3 (June 2024) — `Datasheet/LSM6DSOETR3.pdf`
-**Part:** LSM6DSOETR3 (LCSC C5122483; LGA-14L, 2.5 × 3 × 0.83 mm). The datasheet order codes are **LSM6DSO** (tray) and **LSM6DSOTR** (tape and reel); **LSM6DSOETR3** is the full distributor order code — confirm the suffix at purchase. Board D3b, `U5` — I²C `0x6A`.
-**Board sheet:** `10_原理图.md` §4.2.3; netlist `eda/D3b_L1_can_netlist.txt`.
 
 ---
 
