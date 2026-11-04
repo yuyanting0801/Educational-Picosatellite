@@ -2,6 +2,8 @@
 
 Hardware verification notes for the Educational Picosatellite interface board. One file per device, named after the chip. 
 
+![Pin connections](reference_img/System_Diagram.jpg)
+
 All schematic diagrams are uploaded in [SCH](/SCH). Can download when checking.
 
 | File | Device | Part | Datasheet | Covers |
